@@ -2161,7 +2161,8 @@ input, select, textarea {
 	.icon.alt.skill__item{
 		width: 6em;
 		height: 6em;
-		margin-right: 2rem;
+		margin-right: 10px;
+		margin-bottom: 1rem;
 	}
 
 	.skills{
@@ -2170,7 +2171,8 @@ input, select, textarea {
 	}
 
 	.skills__list{
-		margin-top: 4rem;
+		margin-top: 2rem;
+		
 	}
 
 	.icon__java{
@@ -2189,6 +2191,7 @@ input, select, textarea {
 		background: url("../../images/js.png");
 		background-size: cover;
 		background-repeat: no-repeat;
+		border-radius: 5%;
 	}
 	.icon__css{
 		background: url("../../images/css-3.png");
@@ -2199,6 +2202,18 @@ input, select, textarea {
 		background: url("../../images/html-5.png");
 		background-size: cover;
 		background-repeat: no-repeat;
+	}
+	.icon__git{
+		background: url("../../images/git.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-radius: 100%;
+	}
+	.icon__mysql{
+		background: url("../../images/mysql.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		border-radius: 5%;
 	}
 
 /* Image */
@@ -2663,7 +2678,7 @@ input, select, textarea {
 				position: absolute;
 				right: 1.5em;
 				top: 0;
-				vertical-align: middle;
+				
 				width: 36px;
 			}
 
@@ -3228,7 +3243,7 @@ input, select, textarea {
 				line-height: inherit;
 				padding: 0 0.75em;
 				position: relative;
-				vertical-align: middle;
+				
 			}
 
 				#header nav a:last-child {
@@ -3250,7 +3265,7 @@ input, select, textarea {
 						position: absolute;
 						right: 1.5em;
 						top: 0;
-						vertical-align: middle;
+						
 						width: 24px;
 					}
 
@@ -3934,7 +3949,7 @@ input, select, textarea {
 			text-align: right;
 			text-indent: 8em;
 			top: 0;
-			vertical-align: middle;
+			
 			white-space: nowrap;
 			width: 8em;
 		}
